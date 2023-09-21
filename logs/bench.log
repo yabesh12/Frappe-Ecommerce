@@ -1,0 +1,704 @@
+2023-09-19 01:17:49,485 DEBUG cd frappe-ecommerce && python3 -m venv env
+2023-09-19 01:17:51,519 DEBUG cd frappe-ecommerce && /home/yabesh/Downloads/Office/frappe/frappe-ecommerce/env/bin/python -m pip install --quiet --upgrade pip
+2023-09-19 01:17:53,334 DEBUG cd frappe-ecommerce && /home/yabesh/Downloads/Office/frappe/frappe-ecommerce/env/bin/python -m pip install --quiet wheel
+2023-09-19 01:17:53,972 LOG Getting frappe
+2023-09-19 01:17:53,972 DEBUG cd frappe-ecommerce/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2023-09-19 01:18:15,477 LOG Installing frappe
+2023-09-19 01:18:15,477 DEBUG cd /home/yabesh/Downloads/Office/frappe/frappe-ecommerce && /home/yabesh/Downloads/Office/frappe/frappe-ecommerce/env/bin/python -m pip install --quiet --upgrade -e /home/yabesh/Downloads/Office/frappe/frappe-ecommerce/apps/frappe 
+2023-09-19 01:18:57,957 DEBUG cd /home/yabesh/Downloads/Office/frappe/frappe-ecommerce/apps/frappe && yarn install
+2023-09-19 01:20:09,178 DEBUG cd /home/yabesh/Downloads/Office/frappe/frappe-ecommerce && sudo supervisorctl restart frappe:
+2023-09-19 01:20:09,312 WARNING cd /home/yabesh/Downloads/Office/frappe/frappe-ecommerce && sudo supervisorctl restart frappe: executed with exit code 2
+2023-09-19 01:20:09,312 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-09-19 01:20:09,312 DEBUG cd frappe-ecommerce && bench build
+2023-09-19 01:20:09,372 INFO /home/yabesh/.local/bin/bench build
+2023-09-19 01:20:23,261 LOG setting up backups
+2023-09-19 01:20:23,279 LOG backups were set up
+2023-09-19 01:20:23,279 INFO Bench frappe-ecommerce initialized
+2023-09-19 01:20:23,575 INFO A newer version of bench is available: 5.16.2 → 5.17.2
+2023-09-19 01:20:45,044 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 01:20:45,217 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 01:20:45,217 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 01:20:45,221 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 01:20:45,251 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 11:50:38,161 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 11:50:38,330 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 11:50:38,342 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 11:50:38,365 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 11:50:38,365 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 11:51:11,539 INFO /home/yabesh/.local/bin/bench find .
+2023-09-19 11:51:11,654 INFO A newer version of bench is available: 5.16.2 → 5.17.2
+2023-09-19 11:51:26,586 INFO /home/yabesh/.local/bin/bench new-app ecommerce
+2023-09-19 11:51:26,588 LOG creating new app ecommerce
+2023-09-19 11:51:40,907 LOG Installing ecommerce
+2023-09-19 11:51:40,908 DEBUG cd /home/yabesh/Downloads/Office/frappe/frappe-ecommerce && /home/yabesh/Downloads/Office/frappe/frappe-ecommerce/env/bin/python -m pip install --quiet --upgrade -e /home/yabesh/Downloads/Office/frappe/frappe-ecommerce/apps/ecommerce 
+2023-09-19 11:51:42,458 DEBUG bench build --app ecommerce
+2023-09-19 11:51:42,518 INFO /home/yabesh/.local/bin/bench build --app ecommerce
+2023-09-19 11:51:46,327 DEBUG cd /home/yabesh/Downloads/Office/frappe/frappe-ecommerce && sudo supervisorctl restart frappe:
+2023-09-19 11:51:46,449 WARNING cd /home/yabesh/Downloads/Office/frappe/frappe-ecommerce && sudo supervisorctl restart frappe: executed with exit code 2
+2023-09-19 11:51:46,450 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-09-19 11:51:46,562 INFO A newer version of bench is available: 5.16.2 → 5.17.2
+2023-09-19 11:51:49,139 INFO /home/yabesh/.local/bin/bench restart
+2023-09-19 11:51:49,378 DEBUG cd /home/yabesh/Downloads/Office/frappe/frappe-ecommerce && sudo supervisorctl restart frappe:
+2023-09-19 11:51:49,501 WARNING cd /home/yabesh/Downloads/Office/frappe/frappe-ecommerce && sudo supervisorctl restart frappe: executed with exit code 2
+2023-09-19 11:51:49,501 WARNING /home/yabesh/.local/bin/bench restart executed with exit code 1
+2023-09-19 11:51:49,620 INFO A newer version of bench is available: 5.16.2 → 5.17.2
+2023-09-19 12:00:01,878 INFO /home/yabesh/.local/bin/bench --verbose --site all backup
+2023-09-19 12:01:09,313 INFO /home/yabesh/.local/bin/bench new-site ecommerce.site
+2023-09-19 12:03:58,749 INFO /home/yabesh/.local/bin/bench use ecommerce.site
+2023-09-19 12:04:03,100 INFO /home/yabesh/.local/bin/bench stat
+2023-09-19 12:04:05,101 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 12:04:05,268 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 12:04:05,284 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 12:04:05,299 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 12:04:05,301 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 12:17:00,069 INFO /home/yabesh/.local/bin/bench --site ecommerce.site list-apps
+2023-09-19 12:17:33,740 INFO /home/yabesh/.local/bin/bench --site ecommerce.site install-app ecommerce
+2023-09-19 12:17:37,211 INFO /home/yabesh/.local/bin/bench --site ecommerce.site list-apps
+2023-09-19 12:17:50,081 INFO /home/yabesh/.local/bin/bench --site ecommerce.site install-app account
+2023-09-19 12:18:22,285 INFO /home/yabesh/.local/bin/bench --site ecommerce.site install-app account
+2023-09-19 12:18:42,678 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 12:39:41,165 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 12:39:43,527 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 12:39:43,699 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 12:39:43,734 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 12:39:43,734 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 12:39:43,735 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 13:19:05,002 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 13:19:05,170 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 13:19:05,205 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 13:19:05,205 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 13:19:05,205 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 13:25:10,973 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 13:25:15,723 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 13:25:17,732 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 13:25:17,900 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 13:25:17,900 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 13:25:17,905 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 13:25:17,927 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 13:25:36,914 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 13:25:37,085 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 13:25:37,100 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 13:25:37,109 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 13:25:37,115 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 13:33:33,985 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 13:33:35,576 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 13:33:35,742 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 13:33:35,743 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 13:33:35,780 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 13:33:35,781 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 13:37:20,386 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 13:37:24,186 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 13:37:24,351 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 13:37:24,355 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 13:37:24,364 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 13:37:24,368 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 13:37:49,380 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 13:37:49,555 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 13:37:49,557 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 13:37:49,592 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 13:37:49,592 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 13:37:51,770 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 13:37:53,193 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 13:37:53,366 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 13:37:53,366 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 13:37:53,394 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 13:37:53,405 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 13:39:36,276 INFO /home/yabesh/.local/bin/bench --site ecommerce.site set-config developer_mode 1
+2023-09-19 13:48:03,053 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 13:48:03,222 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 13:48:03,222 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 13:48:03,257 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 13:48:03,259 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 13:59:46,252 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 13:59:47,779 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 13:59:47,947 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 13:59:47,950 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 13:59:47,952 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 13:59:47,981 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 14:19:46,156 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 14:19:47,618 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 14:19:47,786 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 14:19:47,815 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 14:19:47,816 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 14:19:47,817 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 14:32:36,753 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 14:32:38,291 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 14:32:38,454 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 14:32:38,456 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 14:32:38,461 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 14:32:38,488 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 14:58:26,801 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 14:58:28,080 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 14:58:28,249 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 14:58:28,266 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 14:58:28,282 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 14:58:28,283 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 15:12:16,255 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 15:12:18,047 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 15:12:18,228 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 15:12:18,232 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 15:12:18,236 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 15:12:18,255 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 16:56:24,217 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 16:56:25,985 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 16:56:26,170 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 16:56:26,177 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 16:56:26,205 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 16:56:26,206 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 17:30:02,840 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 17:30:04,373 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 17:30:04,555 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 17:30:04,555 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 17:30:04,559 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 17:30:04,587 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 18:00:01,983 INFO /home/yabesh/.local/bin/bench --verbose --site all backup
+2023-09-19 18:21:01,827 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 18:21:03,754 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 18:21:03,927 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 18:21:03,933 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 18:21:03,954 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 18:21:03,957 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 18:26:42,165 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 18:26:43,661 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 18:26:43,833 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 18:26:43,867 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 18:26:43,870 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 18:26:43,870 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 18:28:00,959 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 18:28:02,389 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 18:28:02,570 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 18:28:02,571 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 18:28:02,591 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 18:28:02,592 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 18:28:59,168 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 18:29:00,349 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 18:29:00,516 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 18:29:00,519 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 18:29:00,548 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 18:29:00,554 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 18:35:04,750 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 18:35:06,099 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 18:35:06,277 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 18:35:06,310 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 18:35:06,310 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 18:35:06,311 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 18:38:38,401 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 18:38:40,043 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 18:38:40,207 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 18:38:40,210 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 18:38:40,245 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 18:38:40,248 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 18:45:58,070 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 18:45:59,903 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 18:46:00,073 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 18:46:00,095 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 18:46:00,108 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 18:46:00,114 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 18:48:36,143 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 18:48:38,543 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 18:48:38,718 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 18:48:38,720 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 18:48:38,720 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 18:48:38,730 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 19:00:27,905 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 19:00:29,570 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 19:00:29,742 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 19:00:29,743 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 19:00:29,749 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 19:00:29,773 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 19:01:15,303 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 19:01:17,102 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 19:01:17,266 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 19:01:17,267 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 19:01:17,303 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 19:01:17,307 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 19:41:03,542 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 19:41:03,717 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 19:41:03,717 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 19:41:03,754 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 19:41:03,757 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 19:51:03,944 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 19:51:04,115 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 19:51:04,115 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 19:51:04,119 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 19:51:04,163 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 22:31:56,884 INFO /home/yabesh/.local/bin/bench tail -f
+2023-09-19 22:48:50,261 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 22:48:53,343 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 22:48:53,580 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 22:48:53,582 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 22:48:53,594 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 22:48:53,598 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 22:49:00,376 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 22:49:00,561 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 22:49:00,563 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 22:49:00,591 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 22:49:00,593 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 22:52:52,004 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 22:52:55,349 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 22:52:55,567 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 22:52:55,567 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 22:52:55,572 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 22:52:55,580 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 23:19:15,230 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 23:19:15,436 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 23:19:15,438 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 23:19:15,439 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 23:19:15,459 INFO /home/yabesh/.local/bin/bench worker
+2023-09-19 23:49:41,659 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-19 23:49:43,213 INFO /home/yabesh/.local/bin/bench start
+2023-09-19 23:49:43,398 INFO /home/yabesh/.local/bin/bench watch
+2023-09-19 23:49:43,399 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-19 23:49:43,425 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-19 23:49:43,429 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 00:00:01,887 INFO /home/yabesh/.local/bin/bench --verbose --site all backup
+2023-09-20 01:00:10,735 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 01:00:12,139 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 01:00:12,339 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 01:00:12,354 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 01:00:12,360 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 01:00:12,406 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 01:06:10,416 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 01:06:10,602 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 01:06:10,606 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 01:06:10,629 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 01:06:10,635 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 01:16:53,073 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 01:16:53,259 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 01:16:53,265 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 01:16:53,267 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 01:16:53,279 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 01:16:55,139 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 01:16:57,893 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 01:16:58,069 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 01:16:58,071 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 01:16:58,073 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 01:16:58,107 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 01:19:49,623 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 01:19:50,982 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 01:19:51,200 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 01:19:51,211 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 01:19:51,214 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 01:19:51,238 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 01:21:55,867 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 01:21:57,270 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 01:21:57,456 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 01:21:57,484 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 01:21:57,490 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 01:21:57,490 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 01:29:05,612 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 01:29:06,961 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 01:29:07,170 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 01:29:07,174 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 01:29:07,185 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 01:29:07,195 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 01:32:45,448 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 01:32:46,770 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 01:32:46,953 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 01:32:46,959 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 01:32:46,989 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 01:32:46,989 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 01:41:43,970 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 01:41:45,515 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 01:41:45,732 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 01:41:45,739 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 01:41:45,747 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 01:41:45,756 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 02:01:06,792 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 02:01:08,616 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 02:01:08,817 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 02:01:08,840 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 02:01:08,844 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 02:01:08,866 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 02:10:27,865 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 02:10:29,245 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 02:10:29,451 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 02:10:29,471 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 02:10:29,495 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 02:10:29,495 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 07:32:29,389 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 07:32:29,572 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 07:32:29,576 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 07:32:29,588 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 07:32:29,589 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 08:26:28,065 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 08:26:29,423 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 08:26:29,647 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 08:26:29,647 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 08:26:29,648 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 08:26:29,660 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 08:30:25,520 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 08:30:26,700 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 08:30:26,891 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 08:30:26,908 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 08:30:26,912 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 08:30:26,923 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 08:34:07,353 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 08:34:08,865 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 08:34:09,045 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 08:34:09,052 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 08:34:09,053 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 08:34:09,074 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 08:36:44,799 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 08:36:46,059 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 08:36:46,249 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 08:36:46,254 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 08:36:46,258 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 08:36:46,262 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 08:38:18,083 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 08:38:19,836 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 08:38:20,028 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 08:38:20,038 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 08:38:20,049 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 08:38:20,056 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 08:50:48,471 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 08:50:49,873 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 08:50:50,062 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 08:50:50,068 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 08:50:50,093 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 08:50:50,099 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 08:53:06,410 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 08:53:07,750 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 08:53:07,950 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 08:53:07,957 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 08:53:07,968 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 08:53:07,991 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 09:00:17,600 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 09:00:18,957 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 09:00:19,128 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 09:00:19,137 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 09:00:19,168 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 09:00:19,177 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 09:05:08,334 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 09:05:09,688 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 09:05:09,870 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 09:05:09,880 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 09:05:09,902 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 09:05:09,920 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 09:08:21,785 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 09:08:22,920 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 09:08:23,114 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 09:08:23,119 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 09:08:23,128 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 09:08:23,140 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 09:12:52,798 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 09:12:54,148 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 09:12:54,341 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 09:12:54,346 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 09:12:54,365 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 09:12:54,392 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 09:14:49,051 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 09:14:50,469 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 09:14:50,656 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 09:14:50,658 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 09:14:50,689 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 09:14:50,689 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 09:16:30,870 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 09:16:32,503 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 09:16:32,731 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 09:16:32,737 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 09:16:32,742 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 09:16:32,745 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 09:18:54,607 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 09:18:54,809 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 09:18:54,820 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 09:18:54,823 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 09:18:54,832 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 09:20:47,365 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 09:21:40,575 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 09:21:40,769 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 09:21:40,773 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 09:21:40,788 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 09:21:40,810 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 09:23:32,470 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 11:01:21,132 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 11:03:05,622 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 11:03:15,354 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 11:03:15,564 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 11:03:15,566 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 11:03:15,591 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 11:03:15,595 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 11:45:54,902 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 11:45:56,074 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 11:45:56,250 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 11:45:56,265 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 11:45:56,282 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 11:45:56,283 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 11:47:13,886 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 11:47:15,348 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 11:47:15,543 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 11:47:15,572 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 11:47:15,574 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 11:47:15,577 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 11:51:42,267 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 11:51:44,706 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 11:51:44,916 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 11:51:44,944 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 11:51:44,949 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 11:51:44,949 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 11:56:04,698 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 11:56:05,849 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 11:56:06,071 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 11:56:06,081 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 11:56:06,085 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 11:56:06,086 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 11:58:50,953 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 11:58:52,792 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 11:58:52,980 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 11:58:53,006 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 11:58:53,006 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 11:58:53,009 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 12:00:01,160 INFO /home/yabesh/.local/bin/bench --verbose --site all backup
+2023-09-20 12:00:06,185 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 12:00:07,505 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 12:00:07,690 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 12:00:07,702 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 12:00:07,705 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 12:00:07,718 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 12:07:38,051 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 12:07:39,422 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 12:07:39,633 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 12:07:39,634 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 12:07:39,635 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 12:07:39,637 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 12:41:02,972 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 12:41:04,642 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 12:41:04,822 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 12:41:04,822 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 12:41:04,853 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 12:41:04,859 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 12:41:24,770 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 12:41:26,515 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 12:41:26,698 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 12:41:26,698 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 12:41:26,698 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 12:41:26,723 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 12:54:06,961 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 12:54:08,208 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 12:54:08,396 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 12:54:08,400 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 12:54:08,411 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 12:54:08,414 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 13:49:58,929 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 13:50:01,638 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 13:50:01,841 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 13:50:01,842 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 13:50:01,845 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 13:50:01,855 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 13:51:40,419 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 13:51:41,775 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 13:51:41,951 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 13:51:41,960 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 13:51:41,991 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 13:51:41,994 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 13:55:01,735 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 13:55:06,753 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 13:55:06,937 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 13:55:06,953 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 13:55:06,963 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 13:55:06,963 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 13:57:22,436 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 13:57:23,580 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 13:57:23,798 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 13:57:23,816 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 13:57:23,817 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 13:57:23,845 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 13:59:29,683 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 13:59:30,926 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 13:59:31,110 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 13:59:31,124 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 13:59:31,135 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 13:59:31,137 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 14:01:11,312 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 14:01:12,472 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 14:01:12,650 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 14:01:12,653 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 14:01:12,676 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 14:01:12,681 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 14:02:12,821 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 14:02:14,119 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 14:02:14,300 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 14:02:14,301 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 14:02:14,329 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 14:02:14,330 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 14:04:08,395 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 14:04:09,957 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 14:04:10,166 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 14:04:10,181 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 14:04:10,203 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 14:04:10,214 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 18:00:01,781 INFO /home/yabesh/.local/bin/bench --verbose --site all backup
+2023-09-20 18:16:45,899 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 18:16:47,118 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 18:16:47,378 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 18:16:47,378 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 18:16:47,400 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 18:16:47,401 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 18:18:56,701 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 18:18:58,372 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 18:18:58,565 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 18:18:58,566 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 18:18:58,568 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 18:18:58,587 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 18:23:56,800 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 18:23:58,275 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 18:23:59,715 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 18:23:59,895 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 18:23:59,898 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 18:23:59,899 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 18:23:59,921 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 18:50:43,012 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 18:50:44,367 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 18:50:44,584 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 18:50:44,586 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 18:50:44,587 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 18:50:44,588 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 18:53:51,753 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 18:53:55,596 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 18:53:55,836 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 18:53:55,837 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 18:53:55,843 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 18:53:55,885 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 18:55:42,129 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 18:55:43,565 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 18:55:43,832 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 18:55:43,838 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 18:55:43,885 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 18:55:43,907 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 19:06:45,856 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 19:06:47,168 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 19:06:47,370 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 19:06:47,372 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 19:06:47,374 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 19:06:47,384 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 19:19:58,607 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 19:20:00,322 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 19:20:00,516 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 19:20:00,542 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 19:20:00,547 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 19:20:00,548 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 19:26:35,430 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 19:26:36,776 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 19:26:36,956 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 19:26:36,956 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 19:26:36,969 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-20 19:26:36,970 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 19:30:17,399 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-20 19:30:18,765 INFO /home/yabesh/.local/bin/bench start
+2023-09-20 19:30:18,978 INFO /home/yabesh/.local/bin/bench watch
+2023-09-20 19:30:18,985 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-20 19:30:18,986 INFO /home/yabesh/.local/bin/bench worker
+2023-09-20 19:30:19,005 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 08:25:41,830 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 08:25:42,035 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 08:25:42,042 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 08:25:42,054 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 08:25:42,056 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 08:32:23,187 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 08:32:24,684 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 08:32:24,889 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 08:32:24,899 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 08:32:24,919 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 08:32:24,932 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 08:34:07,221 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 08:34:08,644 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 08:34:08,869 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 08:34:08,876 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 08:34:08,877 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 08:34:08,878 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 08:53:28,432 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 08:53:29,811 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 08:53:30,015 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 08:53:30,018 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 08:53:30,037 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 08:53:30,041 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 09:04:19,920 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 09:04:23,586 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 09:04:23,773 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 09:04:23,773 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 09:04:23,809 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 09:04:23,809 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 09:09:27,814 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 09:09:29,422 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 09:09:29,618 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 09:09:29,644 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 09:09:29,650 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 09:09:29,652 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 09:32:53,771 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 09:49:09,827 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 09:49:11,407 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 09:49:11,632 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 09:49:11,643 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 09:49:11,650 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 09:49:11,658 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 10:04:16,277 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 10:04:17,682 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 10:04:17,893 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 10:04:17,900 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 10:04:17,910 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 10:04:17,921 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 10:05:13,853 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 10:05:15,307 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 10:05:15,509 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 10:05:15,532 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 10:05:15,536 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 10:05:15,548 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 10:08:03,061 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 12:00:01,275 INFO /home/yabesh/.local/bin/bench --verbose --site all backup
+2023-09-21 16:11:24,140 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 16:11:26,305 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 16:11:26,581 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 16:11:26,587 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 16:11:26,593 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 16:11:26,599 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 16:11:52,799 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 16:11:53,014 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 16:11:53,019 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 16:11:53,042 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 16:11:53,043 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 16:12:07,464 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 16:12:07,668 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 16:12:07,675 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 16:12:07,682 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 16:12:07,689 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 17:31:09,905 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 17:31:11,558 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 17:31:11,755 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 17:31:11,755 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 17:31:11,764 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 17:31:11,785 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 17:33:44,613 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 17:33:49,926 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 17:33:50,139 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 17:33:50,147 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 17:33:50,169 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 17:33:50,172 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 17:34:53,500 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 17:34:53,703 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 17:34:53,714 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 17:34:53,734 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 17:34:53,735 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 17:37:45,016 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 17:37:48,552 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 17:37:48,748 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 17:37:48,753 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 17:37:48,773 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 17:37:48,773 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 18:00:01,838 INFO /home/yabesh/.local/bin/bench --verbose --site all backup
+2023-09-21 19:15:59,617 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 19:16:02,208 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 19:16:02,399 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 19:16:02,411 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 19:16:02,430 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 19:16:02,436 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 19:33:04,059 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 19:33:05,206 INFO /home/yabesh/.local/bin/bench start
+2023-09-21 19:33:05,388 INFO /home/yabesh/.local/bin/bench watch
+2023-09-21 19:33:05,419 INFO /home/yabesh/.local/bin/bench serve --port 8003
+2023-09-21 19:33:05,422 INFO /home/yabesh/.local/bin/bench worker
+2023-09-21 19:33:05,425 INFO /home/yabesh/.local/bin/bench schedule
+2023-09-21 19:52:30,300 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 19:52:35,994 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 19:52:39,338 INFO /home/yabesh/.local/bin/bench clear-cache
+2023-09-21 19:52:48,319 INFO /home/yabesh/.local/bin/bench clear-cacheexit
+2023-09-21 19:52:52,155 INFO /home/yabesh/.local/bin/bench clear-cache
